@@ -22,8 +22,8 @@ sys.path.insert(0, parent_dir)
 # %%
 needed_columns = ['text_combined', 'label']
 
-nigerian_dataset_path = pathlib.Path(current_dir + '/training_data/Nigerian_Fraud.csv')
-phishing_dataset_path = pathlib.Path(current_dir + '/training_data/phishing_email.csv')
+nigerian_dataset_path = pathlib.Path(current_dir + '/training_data/Nigerian_Fraud.csv') # credit: https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset
+phishing_dataset_path = pathlib.Path(current_dir + '/training_data/phishing_email.csv') # credit: https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset
 
 resulting_df = pd.DataFrame()
 
