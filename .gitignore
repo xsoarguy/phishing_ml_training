@@ -205,8 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-<<<<<<< HEAD
-=======
 
 # project specific
 training_data/*.csv
@@ -214,4 +212,3 @@ training_data/*.csv
 *.pickle
 *.txt
 *.model
->>>>>>> 35e17c0 (uploading training content)
